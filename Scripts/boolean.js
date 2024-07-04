@@ -9,9 +9,12 @@ if(true){
 } else{
   console.log('goodbye world!');
 }
-let age = 15
+
+const age = 15
 if(age >= 16){
   console.log('you can drive');
+}else if( age >= 14){
+  console.log('Hang in there, you can drive a scooter now');
 } else {
   console.log('you cannot drive');
 }

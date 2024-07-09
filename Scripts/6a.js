@@ -1,9 +1,9 @@
-let hour = 23;
-
+let hour = 11;
+let characterName = 'Area61';
 if(hour >= 6 && hour <= 12){
- console.log("Good Morning");
+ console.log(`Good morning ${characterName}`);
 } else if (hour >= 13 && hour <= 17){
-  console.log("Good Afternoon");
+  console.log(`Good afternoon ${characterName}`);
 } else{
-  console.log("Good night");
+  console.log(`Good night ${characterName}`);
 }
